@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+.mainDiv {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.startButton button{
+    padding: 10px 15px;
+    border: none;
+    border-radius:25px;
+    font-size:18px;
+    background-color: rgb(35, 165, 122);
+    color: white;
+}
+
+.timer{
+
+}
+
+.score{
+
+}
+
+.playingField{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    word-wrap: wrap;
+    height: 200px;
+}
+
+.hole{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    height: 116px;
+    bottom: -30px;
+    flex: 0.33;
+}
+
+.mole{
+    position: absolute;
+    width: 50px;
+    transition: 0.5s;
+    top: 0px;
+    z-index: -1;
+}
+
+.mole.show{
+    top: 57%;
+}
+
+.moleHouse{
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+}
