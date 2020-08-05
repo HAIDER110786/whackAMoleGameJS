@@ -20,6 +20,15 @@ body{
     color: white;
 }
 
+.reset button{
+    padding: 10px 15px;
+    border: none;
+    border-radius:25px;
+    font-size:18px;
+    background-color: rgb(19, 104, 153);
+    color: white;
+}
+
 .playingField{
     padding: 20px;
     width: 100%;
@@ -45,7 +54,7 @@ body{
     width: 50px;
     transition: 0.5s;
     top: 57%;
-    z-index: -1;
+    z-index: 0;
 }
 
 .hole.show .mole{
