@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family:sans-serif;
+    user-select: none;
 }
 
 .mainDiv {
@@ -36,19 +37,19 @@ body{
     overflow: hidden;
     height: 116px;
     bottom: -30px;
-    flex: 0.33;
+    flex: 1;
 }
 
 .mole{
     position: absolute;
     width: 50px;
     transition: 0.5s;
-    top: 0px;
+    top: 57%;
     z-index: -1;
 }
 
-.mole.show{
-    top: 57%;
+.hole.show .mole{
+    top: 0;
 }
 
 .moleHouse{
